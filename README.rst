@@ -16,7 +16,7 @@ Quick start
 3. Run `cd dist`
 
 4. Run `dir` or `pwd` to get your current working directory you should see:
-		 Directory of **:\**\**\**\django-ajaxsignup\dist          <<<<COPY YOUR WORKING DIRECTORY
+		 Directory of **:/**/**/**/django-ajaxsignup/dist          <<<<COPY YOUR WORKING DIRECTORY
 
 11/28/2019  05:35 PM    <DIR>          .
 11/28/2019  05:35 PM    <DIR>          ..
@@ -25,9 +25,9 @@ Quick start
                2 Dir(s)  617,194,110,976 bytes free
 
 5. open your application in the command,activate your virtual environment and RUN:
-	    pip install <copied dir from step 4>\django-ajaxsignup-0.1.tar.gz
+	    pip install <copied dir from step 4>/django-ajaxsignup-0.1.tar.gz
    i.e:    
-		pip install **:\**\**\**\django-ajaxsignup\dist\django-ajaxsignup-0.1.tar.gz
+		pip install **:/**/**/**/django-ajaxsignup/dist/django-ajaxsignup-0.1.tar.gz
 
 
 6. Add "ajaxsigniing" to your INSTALLED_APPS setting like this::
